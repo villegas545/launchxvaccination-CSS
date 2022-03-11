@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  /* backgroud-color gradient */
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ececec 100%);
+}
+nav {
+  margin-top: 3em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+ul li {
+  padding: 1em;
+}
+ul li:last-child a {
+  padding: 1em 2em;
+  background-color: blue;
+  color: #ffffff;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.width-50 {
+  width: 50%;
+  text-align: center;
+}
+i {
+  color: rgb(243, 243, 59);
+}
+.absolute {
+  position: absolute;
+  left: 200px;
+  width: 50%;
+  height: 70px;
+
+  background-color: white;
+  z-index: 1;
+}
+.absolute i {
+  color: blue;
+}
+.pharma {
+  width: 100%;
+}
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.cardmia {
+  flex: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  width: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 0 25px;
+  height: 200px;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.borderbox {
+  box-sizing: border-box;
+}
+.peque {
+  width: 30%;
+  margin-top: 20px;
+}
+.botoncillo {
+  background-color: #bebebe;
+  color: #3619d8;
+  padding: 5px 10px;
+}
+.text-whitemine * {
+  color: white;
+}
